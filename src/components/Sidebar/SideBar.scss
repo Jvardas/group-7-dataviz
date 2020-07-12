@@ -1,0 +1,23 @@
+@import '../../../public/css/shared.scss';
+
+$sidebar-hover-color: #4b4646;
+.ui.menu.fixed.side-nav {
+    background-color: #cecececb;
+    overflow-y: auto;
+    padding-bottom: 64px;
+  
+    .sidebar-item:hover {
+      background: $sidebar-hover-color;
+    }
+  }
+  
+  .side-nav.ui.vertical.menu {
+    width: $sidebar-left-width;
+  }
+  .ui.vertical.menu .active.item {
+    background: $sidebar-hover-color;
+  }
+
+  .text-center {
+    text-align: center;
+  }
