@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './About.scss'
-import windows from '../images/windows.png'
+import video from '../images/video.png'
 import {Container, Form, Embed, Header, Icon} from 'semantic-ui-react'
 
 export default class About extends Component{
@@ -36,7 +36,7 @@ export default class About extends Component{
                 <br/><br/>
                 <Form>
                     <h2 className="colorlib-heading"><Icon name='video' color='blue' size='big' /> Video</h2>
-                    <Embed source='youtube' id="81WBzpwK1Rk" placeholder={windows}></Embed>
+                    <Embed source='vimeo' id="437672319" placeholder={video}></Embed>
                 </Form>
                 <br/><br/><br/>
             </Container>

@@ -1,7 +1,7 @@
 import React from 'react';
 import {SideBarItem, SideBarImage} from './SideBarItem';
 import SideBarFooter from './SideBarFooter';
-import {Menu, Divider} from 'semantic-ui-react';
+import {Menu, Divider, Icon} from 'semantic-ui-react';
 import logo from '../../images/Flag_of_Europe.png'
 import './SideBar.scss';
 
